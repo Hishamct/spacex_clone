@@ -1,0 +1,195 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*, 
+*::before,
+ *::after{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+      font-family: "Roboto", serif;
+      background: black;
+      color:#fff;
+      font-size: small;
+      font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+ul{
+    list-style: none;
+}
+
+/*header navbar*/
+.main-header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index:3; 
+    display: flex;
+    justify-content: normal;
+    align-items: center;
+    text-transform: uppercase;
+    height: 100px;
+    padding: 0 30px;
+    gap:10px;
+  }
+  .logo {
+    display: block;
+    width: 230px;
+    height: 79px;
+    margin-left:70px;
+    top: 0px;
+  }
+  .logo img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .main-menu {
+    margin-right: 50px;
+    top: 10px;
+   
+
+  }
+  
+  .main-menu ul{
+    display:flex;
+    gap: 6px;
+  }
+  .shopping{
+    
+    padding-left: 230px;
+  }
+  .main-menu ul li {
+    position: relative;
+    margin-right: 20px;
+    padding-bottom: 2px;
+  }
+
+  /* Hamburger Menu */
+.hamburger {
+  position: fixed;
+  top: 44px;
+  right: 46px;
+  z-index: 10;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: none;
+  border: none;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  position: absolute;
+  width: 16px;
+  height: 1.5px;
+  top: 0;
+  left: 0;
+  background: #fff;
+  
+}
+
+.hamburger-middle {
+  transform: translateY(4px);
+}
+
+.hamburger-bottom {
+  transform: translateY(8px);
+}
+  /*all sections*/
+  section{
+    position:relative;
+    height: 100vh;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+
+  }
+  .section-inner {
+    position: absolute;
+    bottom: 115px;
+    left: 110px;
+    max-width: 560px;
+  }
+  
+  .section-inner h4 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    font-weight: 400;
+   
+  }
+  
+  .section-inner h2 {
+    font-size: 47px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    opacity: 1;
+    line-height: 48px;
+   
+  }
+  /*background images*/
+  .section-a{
+    background-image: url(WebImages/sectiona.jpg);
+  }
+  .section-b{
+    background-image: url(WebImages/sectionb.jpg);
+  }
+  .section-c{
+    background-image: url(WebImages/Sectionc.jpg);
+  }
+  .section-d{
+    background-image: url(WebImages/sectiond.jpg);
+  }
+  .section-e{
+    background-image: url(WebImages/Astranaut.jpg);
+  }
+  .section-f{
+    background-image: url(WebImages/makelife.jpg);
+  }
+  
+
+  .btn {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    min-width: 130px;
+    padding: 17px 40px;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    overflow: hidden;
+    z-index: 2;
+    
+  }
+
+  /*footer*/
+footer{
+    position:relative;
+    padding: 25px 0;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer ul li{
+    margin-right: 30px;
+    color:#aaa;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 2.5;
+}
+  

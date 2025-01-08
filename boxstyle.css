@@ -1,0 +1,39 @@
+.outerbox{
+    width:100%;
+    height: 1000px;
+    background: black;
+    
+   
+    
+}
+.header{
+    width:100%;
+    height:20%;
+    background:red;
+    float:left ;
+    
+}
+.leftside{
+    width:20%;
+    height:60%;
+    background:green;
+    float:left ;
+    
+}
+.rightside{
+    width:80%;
+    height:60%;
+    background:orange;
+    
+    float:left ;
+}
+.footer{
+    width:100%;
+    height:20%;
+    background:black;
+    float:left ;
+   
+}
+body{
+    margin:0;
+}
