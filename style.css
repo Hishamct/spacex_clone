@@ -9,6 +9,7 @@ body{
       margin: 0;
       padding: 0;
       box-sizing:border-box;
+     
 }
 
 a{
@@ -37,7 +38,7 @@ ul{
 
   .logo {
     width: 230px;
-    height: 79px;
+    height: 62px;
     margin-left:70px;
   }
 
@@ -55,6 +56,7 @@ ul{
     display:flex;
     gap: 6px;
   }
+ 
 
   .main-menu ul li {
     margin-right: 20px;
@@ -106,6 +108,7 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     text-transform: uppercase;
+    overflow: hidden;
 
   }
   .section-inner {
@@ -132,9 +135,8 @@ ul{
   }
 
   /*background images*/
-  .section-a{
-    background-image: url(WebImages/sectiona.jpg);
-  }
+ 
+  
   .section-b{
     background-image: url(WebImages/sectionb.jpg);
   }
